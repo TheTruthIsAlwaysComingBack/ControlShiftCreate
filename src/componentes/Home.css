@@ -17,6 +17,7 @@
 .contenedor {
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 .contenido-principal {
@@ -25,10 +26,11 @@
   padding-top: 2rem;
 }
 
-.info-usuario {
+.componentes-contenedor {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 768px) {

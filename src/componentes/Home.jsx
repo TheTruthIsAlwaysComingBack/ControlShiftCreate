@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import InformacionUsuario from "./InformacionUsuario";
+import Notificaciones from "./Notificaciones";
 
 function Home() {
   return (
@@ -11,9 +12,13 @@ function Home() {
       {/* FIN HEADER */}
       <div className="contenedor">
         <div className="contenido-principal">
-          <p className="no-margin">Primer componente</p>
-          <div className="info-usuario">
+          <p className="no-margin">Primer Componente</p>
+          <div className="componentes-contenedor">
             <InformacionUsuario />
+          </div>
+          <p className="no-margin">Segundo Componente</p>
+          <div className="componentes-contenedor">
+            <Notificaciones />
           </div>
         </div>
       </div>
