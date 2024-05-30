@@ -362,6 +362,7 @@ template {
   --bg: #fafafa;
   --negro: #000;
   --blanco: #fff;
+  --gris: #8b8b8b;
 
   --fuentePrincipal: "Abel", sans-serif;
 }
@@ -378,3 +379,8 @@ html {
 }
 
 /* ========================= GENERALES =========================*/
+body {
+  background-color: var(--bg);
+  font-family: var(--fuentePrincipal);
+  font-size: 2.4rem;
+}
