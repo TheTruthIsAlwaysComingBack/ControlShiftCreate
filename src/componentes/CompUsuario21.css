@@ -1,0 +1,88 @@
+.class-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: #2d2d2d;
+}
+
+.class-info {
+  display: flex;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.coach-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #262626;
+}
+
+.coach-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.coach-name {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.coach-role {
+  color: #d3d3d3;
+  font-size: 14px;
+}
+
+.class-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.detail {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  margin-left: 5px;
+  color: #d3d3d3;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-button,
+.confirm-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+.confirm-button {
+  background-color: #4caf50;
+  color: #ffffff;
+}
