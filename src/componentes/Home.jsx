@@ -4,6 +4,9 @@ import InformacionUsuario from "./InformacionUsuario";
 import Notificaciones from "./Notificaciones";
 import CompUsuario21 from "./CompUsuario21";
 import CompUsuario22 from "./CompUsuario22";
+import CompUsuario24 from "./CompUsuario24";
+import CompUsuario25 from "./CompUsuario25";
+import CompUsuario23 from "./CompUsuario23";
 
 function Home() {
   return (
@@ -29,6 +32,18 @@ function Home() {
           <p className="no-margin">Componente Usuario 22</p>
           <div className="componentes-contenedor">
             <CompUsuario22 />
+          </div>
+          <p className="no-margin">Componente Usuario 23</p>
+          <div className="componentes-contenedor">
+            <CompUsuario23 />
+          </div>
+          <p className="no-margin">Componente Usuario 24</p>
+          <div className="componentes-contenedor">
+            <CompUsuario24 />
+          </div>
+          <p className="no-margin">Componente Usuario 25</p>
+          <div className="componentes-contenedor">
+            <CompUsuario25 />
           </div>
         </div>
       </div>

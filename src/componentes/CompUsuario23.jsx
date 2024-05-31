@@ -1,46 +1,44 @@
 import React from "react";
-import "./CompUsuario22.css";
 
-const CompUsuario21 = () => {
+
+const CompUsuario23 = () => {
   return (
-    <div className="chat-container">
-      <header className="chat-header">
-        <div className="back-button">⟵</div>
-        <div className="chat-title">
-          <span>COMUNIDAD</span>
-          <span className="members-count">42 Miembros</span>
-        </div>
-        <div className="profile-icon">👤</div>
-      </header>
-      <div className="chat-messages">
-        <div className="message received">
-          <div className="message-avatar">👤</div>
-          <div className="message-content">
-            <p>No se olviden de recordar que al principio, se usa pesos ligeros para practicar la técnica. A medida que te sientas más cómodo y seguro con la forma, puedes aumentar gradualmente la carga. Si no se pueden lastimar y es mejor evitar lesiones a largo plazo.</p>
-            <span className="message-time">08:30 A.M.</span>
-          </div>
-        </div>
-        <div className="message sent">
-          <div className="message-avatar">👤</div>
-          <div className="message-content">
-            <p>Gracias bro.</p>
-            <span className="message-time">08:30 A.M.</span>
-          </div>
-        </div>
-        <div className="message sent">
-          <div className="message-avatar">👤</div>
-          <div className="message-content">
-            <p>Gracias bro.</p>
-            <span className="message-time">08:31 A.M.</span>
+    <div className="trainer-profile">
+      <div className="header">
+        <img className="profile-pic" src="path/to/profile-pic.jpg" alt="Alex Pheonix" />
+        <div className="trainer-info">
+          <h1>Alex Pheonix</h1>
+          <p>alexpheonix@gmail.com</p>
+          <div className="rating">
+            <span>★★★★☆</span>
           </div>
         </div>
       </div>
-      <div className="chat-input-container">
-        <input type="text" className="chat-input" placeholder="Escribe aquí ..." />
-        <button className="send-button">➤</button>
+      <div className="schedule">
+        <p>Miércoles</p>
+        <p>Viernes</p>
+      </div>
+      <button className="rate-button">Calificar entrenador</button>
+      <div className="rating-stars">
+        <span>★★★★★</span>
+        <button>Añadir calificación</button>
+      </div>
+      <div className="reviews">
+        <h2>Opiniones del entrenador</h2>
+        <textarea placeholder="Escribir opinión sobre el entrenador"></textarea>
+        <div className="review">
+          <p>El entrenador es bueno y las clases de boxeo son intensas, pero las sesiones de pliometría necesitan más estructura...</p>
+        </div>
+        <div className="review">
+          <p>Buena energía y clases desafiantes. Las sesiones de CrossFit y pliometría son efectivas, pero el boxeo necesita más enfoque en técnicas defensivas...</p>
+        </div>
+        <div className="review">
+          <p>Clases intensas y bien diseñadas.</p>
+        </div>
+        <button>Leer más opiniones</button>
       </div>
     </div>
   );
 };
 
-export default CompUsuario21;
+export default CompUsuario23;
