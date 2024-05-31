@@ -39,7 +39,7 @@
   flex: 1;
   padding: 10px;
   overflow-y: auto;
-  background-image: url("path/to/background-image.jpg");
+  background-color: #D30046;
   background-size: cover;
   background-position: center;
 }
@@ -55,7 +55,7 @@
 }
 
 .message-content {
-  background-color: #ffffff;
+  background-color: #333;
   padding: 10px;
   border-radius: 10px;
   position: relative;
@@ -69,16 +69,20 @@
 .message-time {
   display: block;
   font-size: 12px;
-  color: #666;
+  color: #cecece;
   margin-top: 5px;
 }
 
+.textMessage {
+  color: #cecece;
+}
+
 .received .message-content {
-  background-color: #ffffff;
+  background-color: #333;
 }
 
 .sent .message-content {
-  background-color: #d3d3d3;
+  background-color: #333;
   margin-left: auto;
 }
 

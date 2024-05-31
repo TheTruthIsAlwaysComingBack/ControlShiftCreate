@@ -13,15 +13,15 @@ const CompUsuario21 = () => {
         <div className="class-details">
           <div className="detail">
             <span className="label">Día</span>
-            <span className="value">Lunes 27/5/24</span>
+            <span className="value">                Lunes 27/5/24</span>
           </div>
           <div className="detail">
             <span className="label">Hora</span>
-            <span className="value">12:00pm a 13:00pm</span>
+            <span className="value">           12:00pm a 13:00pm</span>
           </div>
           <div className="detail">
             <span className="label">Cupos</span>
-            <span className="value">20 cupos de 30</span>
+            <span className="value">        20 cupos de 30</span>
           </div>
           <div className="buttons">
             <button className="cancel-button">CANCELAR 💔</button>
