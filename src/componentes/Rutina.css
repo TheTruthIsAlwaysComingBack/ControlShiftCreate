@@ -1,0 +1,107 @@
+.rutina {
+    background-color: #2b2024; /* Color secundario */
+    color: #fff; /* Blanco */
+    font-family: 'Abel', sans-serif; /* Fuente principal */
+    font-size: 2.4rem; /* Tamaño de fuente */
+    padding: 2rem; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  .header {
+    display: flex; /* Alinea los elementos en una fila */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Alinea verticalmente */
+    margin-bottom: 2rem; /* Espacio inferior */
+  }
+  
+  .back-button {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor de puntero */
+    color: #fff; /* Color blanco */
+  }
+  
+  .back-button svg {
+    width: 24px; /* Ancho del icono */
+    height: 24px; /* Alto del icono */
+  }
+  
+  .titulo { 
+    font-size: 3rem; 
+    font-weight: bold; 
+    text-align: center; /* Centra el título horizontalmente */
+  }
+  
+  .dias {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los días */
+    margin-bottom: 2rem; 
+    gap: 1rem; /* Espacio entre cada día */
+  }
+  
+  .dia {
+    background-color: #fd0054; 
+    color: #fff; 
+    padding: 1rem; 
+    border-radius: 5px; 
+    text-align: center; 
+    flex: 1; /* Cada día ocupa el mismo espacio disponible */
+  }
+  
+  .dia.activo {
+    background-color: #8b8b8b; 
+  }
+  
+  
+  .descripcion {
+    font-size: 2rem; /* Tamaño de fuente de la descripción */
+    font-weight: bold; /* Fuente negrita */
+    margin-bottom: 2rem; /* Espacio inferior */
+  }
+  
+  .ejercicio {
+    background-color: #c7b2ba;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-start; /* Alinea elementos al inicio del contenedor */
+  }
+  .ejercicios {
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem; /* Espacio entre cada ejercicio */
+  }
+  
+  
+  .numero {
+    background-color: #000; /* Color de fondo del círculo */
+    color: #fff; /* Color del texto del círculo */
+    border-radius: 50%; /* Forma de círculo */
+    width: 3rem; /* Ancho del círculo */
+    height: 3rem; /* Alto del círculo */
+    display: flex;
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    margin-bottom: 1rem;   /* Espacio inferior del círculo */
+    margin-right: 1.5rem; /* Espacio entre el círculo y el contenido */
+    align-self: center;  
+  }
+  .contenido-ejercicio { /* Nuevo contenedor para título y lista */
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+  .titulo-ejercicio {
+    color: #fd0054;
+    font-size: 1.8rem;
+    text-align: center;     /* Alinea el título a la izquierda */
+    margin-bottom: 0.5rem; 
+  }
+  
+  .lista {
+    list-style-type: disc; /* Tipo de viñeta */
+    padding-left: 3rem; /* Espacio a la izquierda para las viñetas */
+    align-self: flex-start;
+    
+  }
