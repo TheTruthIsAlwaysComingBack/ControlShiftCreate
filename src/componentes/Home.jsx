@@ -1,7 +1,7 @@
-import React from "react";
 import "./Home.css";
 import InformacionUsuario from "./InformacionUsuario";
 import Notificaciones from "./Notificaciones";
+import InformacionGeneral from "./InformacionGeneral";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <header className="header">
         <h1 className="no-margin no-padding">Desarrollo de los componentes</h1>
       </header>
-      {/* FIN HEADER */}
+
       <div className="contenedor">
         <div className="contenido-principal">
           <p className="no-margin">Primer Componente</p>
@@ -19,6 +19,10 @@ function Home() {
           <p className="no-margin">Segundo Componente</p>
           <div className="componentes-contenedor">
             <Notificaciones />
+          </div>
+          <p className="no-margin">Tercer Componente</p>
+          <div className="componentes-contenedor">
+            <InformacionGeneral />
           </div>
         </div>
       </div>
