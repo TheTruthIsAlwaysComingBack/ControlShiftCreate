@@ -1,3 +1,4 @@
+import React from "react";
 import "./Home.css";
 import InformacionUsuario from "./InformacionUsuario";
 import Notificaciones from "./Notificaciones";
