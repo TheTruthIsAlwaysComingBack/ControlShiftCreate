@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./CompUsuario23.css";
 
 const CompUsuario23 = () => {
   return (

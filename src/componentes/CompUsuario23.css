@@ -30,11 +30,11 @@
 
 .trainer-info p {
   margin: 5px 0;
-  color: #ff69b4;
+  color: #D30046;
 }
 
 .rating span {
-  color: #ff69b4;
+  color: #D30046;
   font-size: 20px;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .rate-button {
-  background-color: #ff69b4;
+  background-color: #D30046;
   color: white;
   border: none;
   padding: 10px;
@@ -59,7 +59,7 @@
 }
 
 .rating-stars span {
-  color: #ff69b4;
+  color: #D30046;
   font-size: 24px;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .reviews button {
-  background-color: #ff69b4;
+  background-color: #D30046;
   color: white;
   border: none;
   padding: 10px;
