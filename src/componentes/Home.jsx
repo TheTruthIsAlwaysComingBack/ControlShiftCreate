@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import InformacionUsuario from "./InformacionUsuario";
+import InformacionGeneral from "./InformacionGeneral";
 import Notificaciones from "./Notificaciones";
 import CompUsuario21 from "./CompUsuario21";
 import CompUsuario22 from "./CompUsuario22";
@@ -24,6 +25,10 @@ function Home() {
           <p className="no-margin">Segundo Componente</p>
           <div className="componentes-contenedor">
             <Notificaciones />
+          </div>
+          <p className="no-margin">Tercer Componente</p>
+          <div className="componentes-contenedor">
+            <InformacionGeneral />
           </div>
           <p className="no-margin">Componente Usuario 21</p>
           <div className="componentes-contenedor">
