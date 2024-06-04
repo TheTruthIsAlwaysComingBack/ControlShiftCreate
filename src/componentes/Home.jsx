@@ -8,6 +8,8 @@ import CompUsuario22 from "./CompUsuario22";
 import CompUsuario24 from "./CompUsuario24";
 import CompUsuario25 from "./CompUsuario25";
 import CompUsuario23 from "./CompUsuario23";
+import ConfirmarClases from "./ConfirmacionClases/ConfirmarClases";
+import CancelarClases from "./CancelacionClases/CancelarClases";
 
 function Home() {
   return (
@@ -49,6 +51,14 @@ function Home() {
           <p className="no-margin">Componente Usuario 25</p>
           <div className="componentes-contenedor">
             <CompUsuario25 />
+          </div>
+          <p className="no-margin">Confirmar Clases</p>
+          <div className="componentes-contenedor">
+            <ConfirmarClases />
+          </div>
+          <p className="no-margin">Cancelar Clases</p>
+          <div className="componentes-contenedor">
+            <CancelarClases />
           </div>
         </div>
       </div>
