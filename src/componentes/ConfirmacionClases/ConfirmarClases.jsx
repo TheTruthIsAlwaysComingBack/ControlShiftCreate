@@ -1,12 +1,16 @@
 import React from 'react'
+import BotonAceptar from './BotonAceptar'
+import MensajeConfiClase from './MensajeConfiClase'
 import "./ConfirmarClases.css"
 
 const ConfirmarClases = () => {
+  const AccionBoton = () => {
+    //Aquí vuelve a la pestaña ya que esta es una emergente
+  }
   return (
-    <div className='ContenerdorPrin'>
-        <h1 className='Titulo'>GENIAL!!</h1>
-        <h3 className='Mensaje'> No te olvides de llevar tus suplementos necesarios</h3>
-        <button className='BotonAceptar'>Aceptar</button>
+    <div className='confirmar-clases'>
+      <MensajeConfiClase titulo='GENIAL!!' text='No te olvides de llevar tus suplementos necesarios' />
+      <BotonAceptar text='Aceptar'/>
     </div>
   )
 }

@@ -1,25 +1,34 @@
 import React, { useState } from 'react'
+import MensajeCanceClas from "./MensajeCanceClas"
+import InputMotivoCanceClase from './InputMotivoCanceClase'
+import BotonAceptarCance from './BotonAceptarCance'
+import { guardarMensajeEnBD } from './guardarMensajeEnBD'
 import "./CancelarClases.css"
-import { guardarMensajeEnBD } from './guardarMensajeEnBD';
+
 
 const CancelarClases = () => {
-  const [mensaje, setMensaje] = useState('');
-  function handleGuardarMensaje() {
-    const mensaje = getMensaje();
-    guardarMensajeEnBD(mensaje);
+  const [mensaje, setMensaje] = useState(''); 
+
+  const handleGuardarMensaje = () => {
+    guardarMensajeEnBD(menjase)
   }
+
+
   return (
-    <div className='ContenedorPrincipal'>
-        <h1 className='TituloN'>OH NO!!</h1>
-        <h3 className='MensajeN'>Lamentamos que nos dejes, podrias comentarnos el motivo por favor (opcional)</h3>
-        <input 
-            type="text"
-            name=""
-            id=""
-            placeholder='Escribe el motivo'/>
-            value={mensaje}
-            onChange={(evento) => setMensaje(evento.target.value)}
-        <button className='BotonAceptarN'onClick={() => handleGuardarMensaje()}>Aceptar</button>
+    <div className='contenedor-principal'>
+      <MensajeCanceClas
+        titulo='OH NO!!' 
+        text='Lamentamos que nos dejes, podrías comentarnos el motivo por favor (opcional)' 
+      />
+      <InputMotivoCanceClase
+        placeholder='Escribe el motivo'
+        value={mensaje}
+        onChange={(evento) => setMensaje(evento.target.value)} 
+      />
+      <BotonAceptarCance
+        text='Aceptar' 
+        onClick={handleGuardarMensaje} 
+      />
     </div>
   )
 }

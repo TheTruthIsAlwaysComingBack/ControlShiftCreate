@@ -10,6 +10,7 @@ import CompUsuario25 from "./CompUsuario25";
 import CompUsuario23 from "./CompUsuario23";
 import ConfirmarClases from "./ConfirmacionClases/ConfirmarClases";
 import CancelarClases from "./CancelacionClases/CancelarClases";
+import CoachesPage from "./TarjetaEntrenadores/CoachesPage";
 
 function Home() {
   return (
@@ -59,6 +60,10 @@ function Home() {
           <p className="no-margin">Cancelar Clases</p>
           <div className="componentes-contenedor">
             <CancelarClases />
+          </div>
+          <p className="no-margin">Tarjeta Entrenadores</p>
+          <div className="componentes-contenedor">
+            <CoachesPage />
           </div>
         </div>
       </div>
