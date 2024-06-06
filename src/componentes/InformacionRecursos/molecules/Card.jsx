@@ -7,8 +7,10 @@ const Card = ({ image, description, info }) => {
   return (
     <div className="card-molecule">
       <ImageAtom src={image} alt="Workout" className="card-image" />
-      <TextAtom className="card-description">{description}</TextAtom>
-      <TextAtom className="card-info">{info}</TextAtom>
+      <div className="text-content">
+        <TextAtom className="card-description">{description}</TextAtom>
+        <TextAtom className="card-info">{info}</TextAtom>
+      </div>
     </div>
   );
 };

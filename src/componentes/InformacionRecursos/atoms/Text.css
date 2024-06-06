@@ -1,11 +1,16 @@
 /* Define estilos básicos para los textos */
 .card-description {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #fff;
+  font-size: 2rem;
+  font-weight: normal;
+  color: var(--bg);
+  font-family: var(--fuentePrincipal);
+  margin: 0;
 }
 
 .card-info {
   font-size: 1rem;
-  color: #ff6347; /* Color naranja para el texto */
+  color: var(--bg);
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 1px solid var(--principalRosa);
 }
