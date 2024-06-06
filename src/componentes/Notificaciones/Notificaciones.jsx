@@ -1,6 +1,6 @@
 import React from "react";
 import "./Notificaciones.css";
-import Imagen from "../assets/Vector.svg";
+import Imagen from "../../assets/Vector.svg";
 
 const Notificaciones = () => {
   return (

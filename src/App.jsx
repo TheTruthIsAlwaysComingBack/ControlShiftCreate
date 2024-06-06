@@ -1,4 +1,4 @@
-import Navegacion from "./componentes/Navegacion";
+import Navegacion from "./navegacion/Navegacion";
 import "./App.css";
 
 function App() {
