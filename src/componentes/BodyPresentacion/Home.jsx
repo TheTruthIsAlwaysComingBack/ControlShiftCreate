@@ -8,6 +8,10 @@ import CancelarClases from "../CancelacionClases/CancelarClases";
 import CoachesPage from "../TarjetaEntrenadores/CoachesPage";
 import InfoClaseSus from "../InfoClasesSuscrita/InfoClaseSus";
 import VentanaGracias from "../VentanaGraciasSus/VentanaGracias";
+import PaginaComunidad from "../Comunidad/pages/PaginaComunidad";
+import BarraNav from "../NavLink/organisms/BarraNav";
+import TarjetaClaseASus from "../TarjetaClaseASuscribirse/TarjetaClaseASus";
+import TarjetaDesClase from "../TarjetaDescripciónClase/InfoDesClase";
 
 function Home() {
   return (
@@ -42,6 +46,18 @@ function Home() {
           <div className="componentes-contenedor">
             <VentanaGracias />
           </div>
+          <div className="componentes-contenedor">
+            <PaginaComunidad />
+          </div>
+          <div className="componentes-contenedor">
+            <BarraNav />
+          </div>
+          <div className="componentes-contenedor">
+            <TarjetaClaseASus />
+          </div>
+          {/* <div className="componentes-contenedor">
+            <TarjetaDesClase />
+          </div> */}
         </div>
       </div>
     </>
