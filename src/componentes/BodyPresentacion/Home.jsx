@@ -12,6 +12,10 @@ import PaginaComunidad from "../Comunidad/pages/PaginaComunidad";
 import BarraNav from "../NavLink/organisms/BarraNav";
 import TarjetaClaseASus from "../TarjetaClaseASuscribirse/TarjetaClaseASus";
 import TarjetaDesClase from "../TarjetaDescripciónClase/InfoDesClase";
+import Button from "../Button/Button";
+import CardEntrenador from "../CardEntrenador/CardEntrenador";
+import Consejo from "../Consejo/Consejo";
+import DescripEntrenador from "../DescripEntrenador/DescripEntrenador";
 
 function Home() {
   return (
@@ -58,6 +62,18 @@ function Home() {
           {/* <div className="componentes-contenedor">
             <TarjetaDesClase />
           </div> */}
+          <div className="componentes-contenedor">
+            <Button />
+          </div>
+          <div className="componentes-contenedor">
+            <CardEntrenador />
+          </div>
+          <div className="componentes-contenedor">
+            <Consejo />
+          </div>
+          <div className="componentes-contenedor">
+            <DescripEntrenador />
+          </div>
         </div>
       </div>
     </>
