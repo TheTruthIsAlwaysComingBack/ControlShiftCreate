@@ -24,7 +24,7 @@ function Home() {
           <div className="componentes-contenedor">
             <Notificaciones />
           </div>
-          <div className="componentes-contenedor">
+          <div className="componentes-contenedor-general">
             <InformacionGeneral />
           </div>
           <div className="componentes-contenedor">
