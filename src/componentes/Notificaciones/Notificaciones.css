@@ -1,10 +1,18 @@
 .contenido-notificaciones {
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.notificacion {
   background-color: var(--secundario);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  width: 100%;
   padding: 1rem;
   border-bottom: 1px solid var(--principalRosa);
+  align-items: center;
 }
 
 .contenido-notificaciones .imagen-notificaciones {
@@ -46,7 +54,7 @@
   }
 }
 @media (min-width: 768px) {
-  .contenido-notificaciones {
+  .notificacion {
     justify-content: center;
     gap: 2rem;
   }
@@ -57,7 +65,7 @@
 }
 
 @media (min-width: 1024px) {
-  .contenido-notificaciones {
+  .notificacion {
     width: 90rem;
   }
   .contenido-notificaciones .descripcion-not p {

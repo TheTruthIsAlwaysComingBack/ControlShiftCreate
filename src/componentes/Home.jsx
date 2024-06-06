@@ -1,5 +1,4 @@
 import React from "react";
-import "./Home.css";
 import InformacionUsuario from "./InformacionUsuario";
 import InformacionGeneral from "./InformacionGeneral";
 import Notificaciones from "./Notificaciones";
@@ -94,3 +93,4 @@ function Home() {
 }
 
 export default Home;
+
