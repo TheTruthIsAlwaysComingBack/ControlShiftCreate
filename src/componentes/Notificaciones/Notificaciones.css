@@ -1,0 +1,74 @@
+.contenido-notificaciones {
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.notificacion {
+  background-color: var(--secundario);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid var(--principalRosa);
+  align-items: center;
+}
+
+.contenido-notificaciones .imagen-notificaciones {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-notificaciones .descripcion-not {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenido-notificaciones .descripcion-not p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.descripcion-not .info-not {
+  color: var(--bg);
+}
+
+.descripcion-not .hora {
+  color: var(--gris);
+}
+
+.contenido-notificaciones .descripcion-not {
+  width: 76%;
+}
+
+@media (min-width: 375px) {
+  .contenido-notificaciones .descripcion-not {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .notificacion {
+    justify-content: center;
+    gap: 2rem;
+  }
+  .contenido-notificaciones .descripcion-not p {
+    margin: 0;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .notificacion {
+    width: 90rem;
+  }
+  .contenido-notificaciones .descripcion-not p {
+    font-size: 2.2rem;
+  }
+}

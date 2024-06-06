@@ -1,0 +1,23 @@
+/* Estilos para la tarjeta */
+.card-molecule {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--secundario);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 28rem;
+  height: 24rem;
+}
+
+.card-molecule img {
+  width: 28rem;
+  height: 18rem;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.4rem;
+}
