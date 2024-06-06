@@ -14,6 +14,7 @@ import CoachesPage from "./TarjetaEntrenadores/CoachesPage";
 import VentanaGracias from "./VentanaGraciasSus/VentanaGracias";
 import TarjetaClaseSuscrita from "./InfoClasesSuscrita/TarjetaClaseSuscrita"
 import TarjetaClaseASus from "./TarjetaClaseASuscribirse/TarjetaClaseASus";
+import TarjetaDesClase from "./TarjetaDescripciónClase/TarjetaDesClase";
 
 
 
@@ -81,6 +82,10 @@ function Home() {
           <p className="no-margin">Ventana Gracias</p>
           <div className="componentes-contenedor">
             <VentanaGracias />
+          </div>
+          <p className="no-margin">Tarjeta Información de la clase</p>
+          <div className="componentes-contenedor">
+            <TarjetaDesClase />
           </div>
         </div>
       </div>
