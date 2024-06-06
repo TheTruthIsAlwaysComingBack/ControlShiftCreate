@@ -1,11 +1,10 @@
-import React from 'react';
-import Rutina from './componentes/Rutina/Rutina'; // Asegúrate de que la ruta sea correcta
-
+import Navegacion from "./componentes/Navegacion";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <Rutina />
+      <Navegacion />
     </>
   );
 }
