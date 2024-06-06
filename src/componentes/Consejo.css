@@ -1,0 +1,16 @@
+.entre-container {
+    justify-content: center;
+    min-width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background: rgba(149 149 149 / 0.22);
+}
+
+.entre-container h2 {
+    text-align: center;
+}
+
+.entre-container p {
+    text-align: center;
+}

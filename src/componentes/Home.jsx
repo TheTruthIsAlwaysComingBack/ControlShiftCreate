@@ -8,6 +8,11 @@ import CompUsuario22 from "./CompUsuario22";
 import CompUsuario24 from "./CompUsuario24";
 import CompUsuario25 from "./CompUsuario25";
 import CompUsuario23 from "./CompUsuario23";
+import CardEntrenador from "./CardEntrenador";
+import Consejo from "./Consejo";
+import BarraTotal from "./BarraTotal";
+import DescripEntrenador from "./DescripEntrenador";
+import Button from "./Button";
 
 function Home() {
   return (
@@ -49,6 +54,27 @@ function Home() {
           <p className="no-margin">Componente Usuario 25</p>
           <div className="componentes-contenedor">
             <CompUsuario25 />
+          </div>
+
+          <p className="no-margin">Card Entrenador</p>
+          <div className="componentes-contenedor">
+            <CardEntrenador/>
+          </div>
+          <p className="no-margin">Consejo</p>
+          <div className="componentes-contenedor">
+            <Consejo/>
+          </div>
+          <p className="no-margin">Barra Total</p>
+          <div className="componentes-contenedor">
+            <BarraTotal/>
+          </div>
+          <p className="no-margin">Descripción Entrenador</p>
+          <div className="componentes-contenedor">
+            <DescripEntrenador/>
+          </div>
+          <p className="no-margin">Boton</p>
+          <div className="componentes-contenedor">
+            <Button/>
           </div>
         </div>
       </div>
