@@ -15,6 +15,8 @@ import VentanaGracias from "./VentanaGraciasSus/VentanaGracias";
 import TarjetaClaseSuscrita from "./InfoClasesSuscrita/TarjetaClaseSuscrita"
 import TarjetaClaseASus from "./TarjetaClaseASuscribirse/TarjetaClaseASus";
 import TarjetaDesClase from "./TarjetaDescripciónClase/TarjetaDesClase";
+import PaginaComunidad from "./Comunidad/pages/PaginaComunidad";
+import BarraNav from "./NavLink/organisms/BarraNav";
 
 
 
@@ -86,6 +88,14 @@ function Home() {
           <p className="no-margin">Tarjeta Información de la clase</p>
           <div className="componentes-contenedor">
             <TarjetaDesClase />
+          </div>
+          <p className="no-margin">Aparatado de Chat de comunidad</p>
+          <div className="componentes-contenedor">
+            <PaginaComunidad />
+          </div>
+          <p className="no-margin">NavLink de la Aplicación</p>
+          <div className="componentes-contenedor">
+            <BarraNav />
           </div>
         </div>
       </div>
