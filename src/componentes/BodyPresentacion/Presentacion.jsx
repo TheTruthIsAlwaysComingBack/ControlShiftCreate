@@ -19,7 +19,7 @@ import DescripEntrenador from "../DescripEntrenador/DescripEntrenador";
 import Rutina from "../Rutina/RutinaTemplate";
 import Defesafios from "../desafios/DesafiosTemplate";
 
-function Home() {
+function Presentacion() {
   return (
     <>
       <header className="header">
@@ -88,4 +88,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Presentacion;
