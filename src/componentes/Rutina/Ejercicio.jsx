@@ -1,6 +1,6 @@
-import React from 'react';
-import Numero from './Numero';
-import './Ejercicio.css';
+import React from "react";
+import Numero from "./Numero";
+import "./Ejercicio.css";
 
 const Ejercicio = ({ numero, titulo, items }) => (
   <div className="ejercicio">
