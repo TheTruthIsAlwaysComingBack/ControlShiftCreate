@@ -3,6 +3,11 @@ import "./Home.css";
 import InformacionUsuario from "../InformacionMembresia/InformacionUsuario";
 import InformacionGeneral from "../InformacionRecursos/InformacionGeneral";
 import Notificaciones from "../Notificaciones/Notificaciones";
+import ConfirmarClases from "../ConfirmacionClases/ConfirmarClases";
+import CancelarClases from "../CancelacionClases/CancelarClases";
+import CoachesPage from "../TarjetaEntrenadores/CoachesPage";
+import InfoClaseSus from "../InfoClasesSuscrita/InfoClaseSus";
+import VentanaGracias from "../VentanaGraciasSus/VentanaGracias";
 
 function Home() {
   return (
@@ -13,17 +18,29 @@ function Home() {
       {/* FIN HEADER */}
       <div className="contenedor">
         <div className="contenido-principal">
-          <p className="no-margin">Primer Componente</p>
           <div className="componentes-contenedor">
             <InformacionUsuario />
           </div>
-          <p className="no-margin">Segundo Componente</p>
           <div className="componentes-contenedor">
             <Notificaciones />
           </div>
-          <p className="no-margin">Tercer Componente</p>
           <div className="componentes-contenedor">
             <InformacionGeneral />
+          </div>
+          <div className="componentes-contenedor">
+            <ConfirmarClases />
+          </div>
+          <div className="componentes-contenedor">
+            <CancelarClases />
+          </div>
+          <div className="componentes-contenedor">
+            <CoachesPage />
+          </div>
+          <div className="componentes-contenedor">
+            <InfoClaseSus />
+          </div>
+          <div className="componentes-contenedor">
+            <VentanaGracias />
           </div>
         </div>
       </div>
