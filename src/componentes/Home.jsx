@@ -11,8 +11,11 @@ import CompUsuario23 from "./CompUsuario23";
 import ConfirmarClases from "./ConfirmacionClases/ConfirmarClases";
 import CancelarClases from "./CancelacionClases/CancelarClases";
 import CoachesPage from "./TarjetaEntrenadores/CoachesPage";
-import InfoClaseSus from "./InfoClasesSuscrita/InfoClaseSus";
 import VentanaGracias from "./VentanaGraciasSus/VentanaGracias";
+import TarjetaClaseSuscrita from "./InfoClasesSuscrita/TarjetaClaseSuscrita"
+import TarjetaClaseASus from "./TarjetaClaseASuscribirse/TarjetaClaseASus";
+
+
 
 function Home() {
   return (
@@ -67,9 +70,13 @@ function Home() {
           <div className="componentes-contenedor">
             <CoachesPage />
           </div>
-          <p className="no-margin">Información Horario Clase Suscrita</p>
+          <p className="no-margin">Información Horario Clase Para Suscribirse</p>
           <div className="componentes-contenedor">
-            <InfoClaseSus />
+            <TarjetaClaseASus />
+          </div>
+          <p className="no-margin">Información Horario De Clases a las que esta suscrita</p>
+          <div className="componentes-contenedor">
+            <TarjetaClaseSuscrita />
           </div>
           <p className="no-margin">Ventana Gracias</p>
           <div className="componentes-contenedor">
