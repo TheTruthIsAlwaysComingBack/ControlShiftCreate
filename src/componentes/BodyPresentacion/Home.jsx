@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import InformacionUsuario from "../InformacionMembresia/InformacionUsuario";
+import InformacionUsuario from "../InformacionMembresia/organisms/InformacionUsuario";
 import InformacionGeneral from "../InformacionRecursos/InformacionGeneral";
 import Notificaciones from "../Notificaciones/Notificaciones";
 import ConfirmarClases from "../ConfirmacionClases/ConfirmarClases";
